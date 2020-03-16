@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ethiopia.app.jokes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <supports-screens android:xlargeScreens="true" />
+
+    <!--<compatible-screens>-->
+
+        <!--&lt;!&ndash; all small size screens &ndash;&gt;-->
+        <!--<screen-->
+            <!--android:screenDensity="ldpi"-->
+            <!--android:screenSize="small" />-->
+        <!--<screen-->
+            <!--android:screenDensity="mdpi"-->
+            <!--android:screenSize="small" />-->
+        <!--<screen-->
+            <!--android:screenDensity="hdpi"-->
+            <!--android:screenSize="small" />-->
+        <!--<screen-->
+            <!--android:screenDensity="xhdpi"-->
+            <!--android:screenSize="small" />-->
+        <!--&lt;!&ndash; all normal size screens &ndash;&gt;-->
+        <!--<screen-->
+            <!--android:screenDensity="ldpi"-->
+            <!--android:screenSize="normal" />-->
+        <!--<screen-->
+            <!--android:screenDensity="mdpi"-->
+            <!--android:screenSize="normal" />-->
+        <!--<screen-->
+            <!--android:screenDensity="hdpi"-->
+            <!--android:screenSize="normal" />-->
+        <!--<screen-->
+            <!--android:screenDensity="xhdpi"-->
+            <!--android:screenSize="normal" />-->
+    <!--</compatible-screens>-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- <android:uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Funy_Amahric1"
+            android:label="@string/funy1"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Funy_English2"
+            android:label="@string/funy2"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Funy_Other3"
+            android:label="@string/funy3"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".About_Us"
+            android:label="@string/title_activity_about__us"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Comment"
+            android:label="@string/title_activity_comment"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name=".FbCommentsActivity" >
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="EMAIL"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MyOwnJokes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditDataActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ImageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Amh_Image_Activity"
+            android:label="@string/title_activity_amh__image_"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Eng_Image_Activity"
+            android:label="@string/title_activity_eng__image_"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Other_Image_Activity"
+            android:label="@string/title_activity_other__image_"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".App_Info"
+            android:label="@string/title_activity_app__info" >
+        </activity>
+        <activity android:name=".SharedPreferences"
+            android:label="Font Editor">
+        </activity>
+        <activity
+            android:name=".SocialNetwork"
+            android:label="@string/title_activity_social_network"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+    </application>
+
+</manifest>
+
+

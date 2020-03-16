@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/eng_jokes"
+        android:title="የባህር ማዶ ቀልዶች"/>
+
+    <item
+        android:id="@+id/other_jokes"
+        android:title="ከ 18+ ቀልዶች"/>
+
+    <item
+        android:id="@+id/amh_jokes"
+
+        android:title="አገርኛ ቀልዶች"
+        />
+
+    <item
+        android:id="@+id/action_Suggestion"
+
+        android:title="ሀሳብ መስጫ"
+        />
+    <item
+        android:id="@+id/rateApp"
+        android:title="ደረጃ ስጥ"
+        />
+
+
+    <item
+        android:id="@+id/action_share"
+        android:title="ይሄን አፕልኬሽን አጋራ"/>
+
+    <item
+        android:icon="@drawable/ic_action_share"
+        android:id="@+id/action_share"
+        android:title="SHARE"
+        app:showAsAction="always"
+        />
+</menu>

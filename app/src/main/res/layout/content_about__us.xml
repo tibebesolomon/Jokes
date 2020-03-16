@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    tools:context=".About_Us"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/backgroun">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        android:layout_marginTop="60dp">
+
+
+        <ImageView
+            android:src="@drawable/logo1"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:id="@+id/about_usImage"
+           />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AoutUSText1"
+                android:text="የአፕልኬሽኑ ስም:\n *ፈታ በ ዘመናዊኛ-Relax with modernize"
+                />
+
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AoutUSText"
+                android:text="Version:\n *1.0"
+                />
+
+
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AoutUSText4"
+                android:text="የኢሜል አድራሻችን:"
+                />
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/contact_us"
+                android:text="itsc.tibebe.solomon@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AoutUSText5"
+                android:text="ስልክ ቁጥር:"
+                />
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/contact_call"
+                android:text="+251929140168"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+
+        </LinearLayout>
+</ScrollView>
+    </LinearLayout>
+    <!--<View android:layout_height="0.5dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#ffffff"/>-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <View android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#ffffff"/>
+
+        <LinearLayout
+            android:id="@+id/button_group1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp">
+
+            <Button
+                android:id="@+id/app_info"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="App Info"
+                android:layout_weight="1.0"
+                android:elevation="23dp"
+                />
+
+
+            <Button
+                android:id="@+id/about_our"
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:text="TS"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="3dp"
+                android:elevation="23dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/button_group2"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_group1"
+            android:padding="7dp">
+            <Button
+                android:id="@+id/socialnetwork"
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:text="Social Network"
+                android:layout_weight="1.0"
+                android:elevation="23dp"
+                />
+            <Button
+                android:id="@+id/btnSendFeedback"
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:text="Feedback"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1.0"
+                android:elevation="23dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_group3"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_group2"
+            android:padding="7dp"
+            >
+            <Button
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:text="More App"
+                android:layout_weight="1.0"
+                android:elevation="23dp"
+                />
+            <Button
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:text="Agreement"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="3dp"
+                android:elevation="23dp"
+                />
+
+        </LinearLayout>
+        <View android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#ffffff"/>
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp">
+        <!--<View android:layout_height="1dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="#ffffff"/>-->
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/Info_Companies"
+            android:text="TS"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/info_location"
+        android:layout_below="@+id/Info_Companies"
+        android:layout_marginLeft="75dp"
+        android:text="Software and Web Development PLC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_below="@+id/info_location"
+            android:layout_marginLeft="123dp"
+            android:text="Addis Ababa,ETHIOPIA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#ffffff"/>
+    </RelativeLayout>
+</ScrollView>
+    </LinearLayout>
+<!--</ScrollView>-->

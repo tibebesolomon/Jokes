@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidgallery_android_examples.com.MainActivity"
+    android:orientation="vertical"
+    android:background="#305f5b">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="የአገርኛ የምስል ቀልዶች"
+        android:id="@+id/imageAmh_button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="91dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_main_bg_strock"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/button_main_bg_strock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="የባህር ማዶ የምስል ቀልዶች"
+        android:id="@+id/imageEng_button2"
+        android:layout_below="@+id/imageAmh_button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="የተለያዩ የምስል ቀልዶች"
+        android:id="@+id/imageOther_button3"
+        android:layout_below="@+id/imageEng_button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        android:background="@drawable/button_main_bg_strock"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

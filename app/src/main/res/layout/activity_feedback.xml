@@ -1,0 +1,118 @@
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    tools:context=".FeedbackActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backgroun"
+    >
+
+        <TextView
+            android:id="@+id/lblFeedbackTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title_feedback"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/lblComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lblFeedbackTitle"
+            android:text="@string/comments"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lblComments"
+            android:ems="10"
+            android:height="@dimen/comments_height"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblCharactersLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtComments"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/lblEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lblCharactersLeft"
+            android:layout_marginTop="22dp"
+            android:text="@string/email_address"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:height="@dimen/comments_height"
+            android:id="@+id/txtEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lblEmailAddress"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/lblRating"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/txtEmailAddress"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:text="@string/rating"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <!--<RatingBar-->
+            <!--android:color="#000000"-->
+            <!--android:id="@+id/ratingBar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/lblRating"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:stepSize="1"-->
+            <!--/>-->
+
+        <Button
+            android:background="@drawable/button_bg_strock"
+            android:id="@+id/sendEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="@string/submit"
+            />
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2017 \u00a9 TS PLC."
+        android:id="@+id/textView"
+        android:layout_below="@+id/sendEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp" />
+</RelativeLayout>

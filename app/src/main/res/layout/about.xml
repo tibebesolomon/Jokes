@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/about_logo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo1"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="version 1.0"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_logo"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/about_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Copyright \u00a9 2017,"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_title"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="TS software and web development PLC."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_version"/>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/about_reserved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="All Rights Reserved."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about_name"/>
+
+</RelativeLayout>
